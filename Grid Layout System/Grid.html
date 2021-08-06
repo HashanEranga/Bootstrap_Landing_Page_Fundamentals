@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Template</title>
+
+    <!-- CSS Added -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap Styles Added -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- JQuery included -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Row => create a row class -->
+    <!-- Not responsive -->
+    <div class="row">
+        <!-- col => inside row define a column -->
+        <div class="col" style="background-color: red; border: 1px solid;">Column1</div>
+    </div>
+
+    <!-- Row => create a row class -->
+    <!-- Not Responsive -->
+    <div class="row">
+        <!-- col => inside row define a column -->
+        <!-- defined two columns will devide the row in to two equal parts -->
+        <div class="col" style="background-color: blue; border: 1px solid;color: white;">Column1</div>
+        <div class="col" style="background-color: blue; border: 1px solid; color: white;">Column2</div>
+    </div>
+
+    <!-- Not responsive -->
+    <div class="row">
+        <div class="col-6" style="background-color: aquamarine;">Column takes 6 units half of the total space</div>
+        <div class="col" style="background-color: red;">Auto Fill the rest of the space</div>
+    </div>
+
+    <!-- Responsive Row -->
+    <div class="row">
+        <!-- observe : Only the following two columns take two separate rows in small screen sizes -->
+        <div class="col-md-6" style="background-color: green;">Responsive Column 1</div>
+        <div class="col-md-6" style="background-color: blue; color: white;">Responsive Column 2</div>
+    </div>
+
+    <!-- Responsive Row -->
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: black; color: white;">Column</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: black; color: white;">Column</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: black; color: white;">Column</div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: black; color: white;">Column</div>
+    </div>
+
+    <!-- Responsive Row -->
+    <div class="row">
+        <div class="col-lg-2 col-md-4" style="background-color: blueviolet; border: 1px solid;">Column</div>
+        <div class="col-lg-2 col-md-4" style="background-color: blueviolet; border: 1px solid;">Column</div>
+        <div class="col-lg-2 col-md-4" style="background-color: blueviolet; border: 1px solid;">Column</div>
+        <div class="col-lg-2 col-md-4" style="background-color: blueviolet; border: 1px solid;">Column</div>
+        <div class="col-lg-2 col-md-4" style="background-color: blueviolet; border: 1px solid;">Column</div>
+        <div class="col-lg-2 col-md-4" style="background-color: blueviolet; border: 1px solid;">Column</div>
+    </div>
+</body>
+</html>
