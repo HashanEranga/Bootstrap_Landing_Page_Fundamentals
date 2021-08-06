@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Project Portal Title </title>
 
-    <!-- CSS Added -->
-    <link rel="stylesheet" href="styles.css">
-
     <!-- JQuery Added -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -20,15 +17,20 @@
     <!-- Google Fonts Added -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Montserrat">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- CSS Added -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
     <section id="title">
 
         <div class="container-fluid">
-            
+
             <!-- Navbar -->
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-md navbar-dark">
 
                 <a href="" class="navbar-brand">Project Portal</a>
         
@@ -56,12 +58,12 @@
 
                 <div class="col-lg-6">
                     <h1>Project Portal Title</h1>
-                    <button type="button">Get Started</button>
-                    <button type="button">Contact Us</button>
+                    <button type="button" class="btn btn-light btn-lg download-button"><i class="fas fa-sign-in-alt"></i> Get Started</button>
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-id-card-alt"></i> Contact Us</button>
                 </div>
 
                 <div class="col-lg-6">
-                    <img src="./Assets/titleImage.jpg" alt="main image">
+                    <img src="./Assets/titleImage.jpg" alt="main image" class="title-image">
                 </div>
 
             </div>
