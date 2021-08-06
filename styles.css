@@ -1,4 +1,5 @@
 /* All Settings */
+
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -18,6 +19,15 @@ h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 5rem;
     line-height: 1.5;
+}
+
+h3 {
+    font-family: 'roboto';
+    font-weight: bold;
+}
+
+p {
+    color: #afafaf;
 }
 
 /* Navigation Section */
@@ -48,7 +58,28 @@ h1 {
 }
 
 /* Title Image */
+
 .title-image {
     width : 60%;
     transform: rotate(10deg);
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #082032;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #2C394B;
 }
