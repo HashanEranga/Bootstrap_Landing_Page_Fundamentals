@@ -1,0 +1,10 @@
+#title {
+    background-color: #1A1A2E;
+    color: #fff;
+}
+
+#title h1 {
+    font-family: "Montserrat-Black", Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
