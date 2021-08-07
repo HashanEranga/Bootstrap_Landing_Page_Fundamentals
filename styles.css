@@ -21,8 +21,14 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
-    font-family: 'roboto';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 
@@ -76,10 +82,30 @@ p {
 }
 
 .icon {
-    color: #082032;
+    color: #2C394B;
     margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #2C394B;
+    color: #082032;
 }
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #1A1A2E;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
